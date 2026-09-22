@@ -1,0 +1,8 @@
+# name|hexadecimal frame bytes
+ping_12345678|41 53 01 30 04 00 78 56 34 12
+sync_begin_empty_generation_1|41 53 01 11 08 00 01 00 00 00 00 00 00 00
+current_output_absent_generation_1|41 53 01 14 0A 00 01 00 00 00 00 00 00 00 00 00
+current_input_absent_generation_1|41 53 01 15 0A 00 01 00 00 00 00 00 00 00 00 00
+sync_end_generation_1|41 53 01 16 04 00 01 00 00 00
+output_usb_dac_generation_2|41 53 01 12 0F 00 02 00 00 00 01 00 07 00 55 53 42 20 44 41 43
+

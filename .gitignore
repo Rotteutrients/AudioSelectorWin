@@ -1,0 +1,32 @@
+# Rust
+/windows/target/
+**/*.rs.bk
+*.pdb
+
+# PlatformIO
+/firmware/.pio/
+/firmware/.cache/
+/firmware/.pioenvs/
+/firmware/.piolibdeps/
+/firmware/compile_commands.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Machine-local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local logs
+*.log
+/windows/soak-logs/

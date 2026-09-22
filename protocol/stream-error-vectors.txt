@@ -1,0 +1,7 @@
+# name|expected_frames|expected_errors|chunks separated by '/'
+partial_ping|1|0|41 53 01 30 04/00 78 56 34 12
+multiple_ping|2|0|41 53 01 30 04 00 78 56 34 12 41 53 01 30 04 00 78 56 34 12
+garbage_and_false_magic|1|0|FF 41 00 12 41 53 01 30 04 00 78 56 34 12
+oversized_length_then_ping|1|1|41 53 01 30 01 02 41 53 01 30 04 00 78 56 34 12
+lone_magic_prefix|1|0|FF 41/53 01 30 04 00 78 56 34 12
+

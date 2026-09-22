@@ -1,0 +1,8 @@
+# name|expected_error|hexadecimal frame bytes
+unknown_type|unknown_type|41 53 01 99 00 00
+unsupported_version|unsupported_version|41 53 02 30 04 00 78 56 34 12
+invalid_utf8|invalid_utf8|41 53 01 12 09 00 01 00 00 00 01 00 01 00 FF
+reserved_not_zero|reserved_not_zero|41 53 01 01 0C 00 01 01 00 00 00 00 00 00 00 00 01 00
+invalid_exact_length|invalid_length|41 53 01 30 03 00 78 56 34
+zero_generation|invalid_value|41 53 01 16 04 00 00 00 00 00
+

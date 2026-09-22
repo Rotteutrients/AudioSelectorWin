@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Windows PowerShell scripts are most convenient with native line endings.
+*.ps1 text eol=crlf
+
+# Binary assets
+*.png binary
